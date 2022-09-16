@@ -411,7 +411,7 @@
   },
   "security": [
     {
-      "API Key": []
+      "apiKey": []
     }
   ]
 }
