@@ -90,6 +90,11 @@
             "type": "string",
             "in": "header",
             "name": "cookie"
+          },
+          {
+            "type": "string",
+            "in": "cookie",
+            "name": "sid"
           }
         ]
       },
