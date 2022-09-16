@@ -73,7 +73,25 @@
           }
         },
         "operationId": "get-users-userId",
-        "description": "Retrieve the information of the user with the matching user ID."
+        "description": "Retrieve the information of the user with the matching user ID.",
+        "parameters": [
+          {
+            "type": "boolean",
+            "in": "query",
+            "name": "secured",
+            "description": "is user id is secured"
+          },
+          {
+            "in": "formData",
+            "type": "string",
+            "name": "example"
+          },
+          {
+            "type": "string",
+            "in": "header",
+            "name": "cookie"
+          }
+        ]
       },
       "patch": {
         "summary": "Update User Information",
