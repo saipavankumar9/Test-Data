@@ -1,6 +1,4 @@
-
-        
-        {
+{
   "swagger": "2.0",
   "info": {
     "title": "Test",
@@ -18,12 +16,11 @@
   ],
   "paths": {
     "/users/{userId}": {
-       "security": [
-          {
-            "apiKey": []
-          }
-        ],
-        
+      "security": [
+        {
+          "apiKey": []
+        }
+      ],
       "parameters": [
         {
           "type": "integer",
@@ -34,12 +31,11 @@
         }
       ],
       "get": {
-         "security": [
+        "security": [
           {
             "apiKey": []
           }
         ],
-        
         "summary": "Get User Info by User ID",
         "tags": [],
         "responses": {
